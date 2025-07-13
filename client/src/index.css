@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: some base custom styles */
+body {
+  @apply bg-primary text-gray-800;
+  font-family: sans-serif;
+}
+
