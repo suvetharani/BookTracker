@@ -19,7 +19,7 @@ export default function Header() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6 items-center">
-          <Link to="/" className="hover:underline">Home</Link>
+          <Link to="/Home" className="hover:underline">Home</Link>
           <Link to="/dashboard" className="hover:underline">Dashboard</Link>
           <Link to="/reviews" className="hover:underline">Reviews</Link>
           <Link to="/login" className="hover:underline">Login</Link>
