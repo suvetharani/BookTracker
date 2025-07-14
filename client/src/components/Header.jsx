@@ -44,7 +44,7 @@ export default function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden flex flex-col mt-2 space-y-2">
-          <Link to="/" className="hover:underline" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link to="/Home" className="hover:underline" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/dashboard" className="hover:underline" onClick={() => setIsOpen(false)}>Dashboard</Link>
           <Link to="/reviews" className="hover:underline" onClick={() => setIsOpen(false)}>Reviews</Link>
           <Link to="/login" className="hover:underline" onClick={() => setIsOpen(false)}>Login</Link>
